@@ -8,3 +8,4 @@ A showcase of my skills pertaining implementation of an IT infrastructure trough
 -Identificação
 -Gui da Ficheiros
 -Recursos de Apoio
+-Conclusion
