@@ -3,6 +3,13 @@
 
 # AWS Configuration
 
+## Virtual Machines
+
+## Elastic Ips
+
+## Security Groups
+
+
 # Windows Server Set-up
 
 ## Initial Server Configuration
@@ -54,4 +61,6 @@
 
 ## Windows Clients Tests
 
+
 ## Email Tests
+
