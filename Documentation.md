@@ -5,7 +5,7 @@
 
 ## Virtual Machines
 
-##Elastic Ips
+## Elastic Ips
 
 ## Security Groups
 
@@ -63,3 +63,4 @@
 
 
 ## Email Tests
+
