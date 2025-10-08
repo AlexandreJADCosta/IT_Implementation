@@ -6,13 +6,13 @@
 This project is completed trough AWS Website and Interfaces as we are provided Virtual Machines and ways to manipulate them.
 
 The objective here is to set everything before hand.
-    1. Set Virtual Machines;
-    2. Set Elastic IPs;
-    3. Set Security Groups.
+- 1. Set Virtual Machines;
+- 2. Set Elastic IPs;
+- 3. Set Security Groups.
 
 ## Virtual Machines
 
-    Starting with Windows Server, steps here will be the same for all others besides the contents of the machine.
+Starting with Windows Server, steps here will be the same for all others besides the contents of the machine.
 
 It will be required to lauch the instances.
 You can do so following the current images.
@@ -21,7 +21,7 @@ You can do so following the current images.
 ![Lauching Instances 2](/Images/Screenshots%20AWS/WinServer/AWS_2.png)
 
 
-    -- Windows Virtual Machine --
+-- Windows Virtual Machine --
 TYPE: c5.large
 OS: Windows Server 2022
 VPC: Default
@@ -36,7 +36,7 @@ As seen in images below.
 ![Setting Windows VM 3](/Images/Screenshots%20AWS/WinServer/AWS_5.png)
 ![Setting Windows VM 4](/Images/Screenshots%20AWS/WinServer/AWS_6.png)
 
-    -- Ubuntu Virtual Machine --
+-- Ubuntu Virtual Machine --
 TYPE: t3.medium
 OS: Ubuntu Server 24.04 LTS
 VPC: Default
@@ -47,7 +47,7 @@ SG GROUP: SSH, HTTP, HTTPS, SMTP, IMAP, POP3
 
 Same process as above.
 
-    -- Clients Virtual Machine --
+-- Clients Virtual Machine --
 TYPE: c5.large
 OS: Windows 11 Pro
 VPC: Default
@@ -61,7 +61,7 @@ Either create two at once (Can be seen on the right) or do process twice.
 
 ## Elastic Ips
 
-    Elastic IPs will allow for perpetual use of these Virtual Machines, this way there is no need to reconfigure the public IPs every day.
+Elastic IPs will allow for perpetual use of these Virtual Machines, this way there is no need to reconfigure the public IPs every day.
 
 Elastic IP's menu interface can be found on tab on the left of AWS Interface
 ![Elastic IP location](/Images/Screenshots%20AWS/Elastic_IP/AWS_7.png)
@@ -76,7 +76,7 @@ Afterwards by either clicking the 'Action' button on top right or right-click an
 
 ## Security Groups
 
-    These are all beeing set now as it is known what they will require thanks to information above.
+These are all beeing set now as it is known what they will require thanks to information above.
 
 To set Security Groups (sg for short) one must access their menu interface trough the tab on the left.
 ![Finding it on tab](/Images/Screenshots%20AWS/SecurityGroups/AWS_22.png)
