@@ -6,9 +6,9 @@
 This project is completed trough AWS Website and Interfaces as we are provided Virtual Machines and ways to manipulate them.
 
 The objective here is to set everything before hand.
-- 1. Set Virtual Machines;
-- 2. Set Elastic IPs;
-- 3. Set Security Groups.
+- Set Virtual Machines;
+- Set Elastic IPs;
+- Set Security Groups.
 
 ## Virtual Machines
 
