@@ -107,6 +107,17 @@ Do not forget however to replace all security groups on the correct virtual mach
 
 # Windows Server Set-up
 
+In this project Windows10 was used as the Main Server.
+For working proccess both Windows10 and Windows11 have the same proccess besides the diferent UI.
+
+Start by changing this Computer's name.
+In this case I called this computer Winsrv.
+![Computer Properties](/Images/WinServer/InitialSetup/2.png)
+![Name Change UI](/Images/WinServer/InitialSetup/3.png)
+
+Always Restart a Windows Computer when it asks.
+![Restart Computer](/Images/WinServer/InitialSetup/4.png)
+
 ## Initial Server Configuration
 
 ## Activa Directory Installation and Configuration
