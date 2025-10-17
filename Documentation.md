@@ -145,7 +145,7 @@ Choose root domain for something your liking. After it is completed allow comput
 ![Restarting Computer](/Images/WinServer/ADInstall/WinSer_15.png)
 
 In order to test if this step was successful run the current command on 'Windows Terminal'.
-`nslookup <DNS>
+` nslookup <DNS> `
 ![Domain Test](/Images/WinServer/ADInstall/WinSer_17.png)
 
 ## DNS Configuration
