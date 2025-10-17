@@ -110,6 +110,10 @@ Do not forget however to replace all security groups on the correct virtual mach
 In this project Windows10 was used as the Main Server.
 For working proccess both Windows10 and Windows11 have the same proccess besides the diferent UI.
 
+Parts of this process will be used for setting up the Windows client computer later.
+
+## Initial Server Configuration
+
 Start by changing this Computer's name.
 In this case I called this computer Winsrv.
 ![Computer Properties](/Images/WinServer/InitialSetup/2.png)
@@ -118,9 +122,33 @@ In this case I called this computer Winsrv.
 Always Restart a Windows Computer when it asks.
 ![Restart Computer](/Images/WinServer/InitialSetup/4.png)
 
-## Initial Server Configuration
+## Active Directory Installation and Configuration
 
-## Activa Directory Installation and Configuration
+To install Active Directory as a start.
+This is to make sure this Computer is properly set up as a server.
+
+Find a way to Server Manager. Usualy searchbar below does the trick.
+![Searching up Server Manager](/Images/WinServer/ADInstall/WinSer_5.png)
+![Server Manager window](/Images/WinServer/ADInstall/WinSer_6.png)
+
+Wait for window to load.
+Click on 'Add Roles' to open 'Server Role Wizard'
+For basic installation on this project follow these images, otherwise leave all at default.
+![Server Roles to install](/Images/WinServer/ADInstall/WinSer_7.png)
+![Role Services to have attention to](/Images/WinServer/ADInstall/WinSer_8.png)
+
+Afterwards promote this computer to a server controler. Do this trough top-right notification on 'Server Manager' window.
+![Were to find promotion to server notification](/Images/WinServer/ADInstall/WinSer_11.png)
+
+Choose root domain for something your liking. After it is completed allow computer to restart.
+![Where to change name of Domain](/Images/WinServer/ADInstall/WinSer_13.png)
+![Restarting Computer](/Images/WinServer/ADInstall/WinSer_15.png)
+
+In order to test if this step was successful run the current command on 'Windows Terminal'.
+'''
+nslookup <DNS>
+'''
+![DNS Test](/Images/WinServer/ADInstall/WinSer_17.png)
 
 ## DNS Configuration
 
